@@ -18,12 +18,10 @@ The timer provides power to the RPi when the IGN is on. When the IGN is switched
 ## Copy the Script
 
 1. Download the power-monitor.py script to your home directory /home/pi
-2. Create directory /opt/power-monitor - > sudo mkdir /opt/power-monitor
-3. Copy script to /opt/power-monitor/power-monitor.py >sudo cp /home/pi/power-monitor.py /opt/power-monitor/
-4. Set owner - >sudo chown root:root /opt/power-monitor/power-monitor.py
-5. Add execute attribute to script - >sudo chmod +x /opt/power-monitor/power-monitor.py
-6. Set required GPIO pin (PORT) and shutdown delay (SHUTDOWN_DELAY) in script ->sudo nano /opt/power-monitor/power-monitor.py
-
+2. Create directory /opt/power-monitor - > ```sudo mkdir /opt/power-monitor```
+3. Copy script to /opt/power-monitor/power-monitor.py >```sudo cp /home/pi/power-monitor.py /opt/power-monitor/```
+4. Set owner - >```sudo chown root:root /opt/power-monitor/power-monitor.py```
+5. Add execute attribute to script - >```sudo chmod +x /opt/power-monitor/power-monitor.py```
 
 ## Run it as a Service
 
