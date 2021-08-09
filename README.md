@@ -4,9 +4,16 @@ The timer provides power to the RPi when the IGN is on. When the IGN is switched
 
 ![RPI_Shutdown_Circuit](https://user-images.githubusercontent.com/16430033/128670816-533ff493-f1d9-47ca-bc32-3e5413bb67a1.png)
 
+Component Cost:
+FROM01 -
+12V Relay - 
+DC-DC buck converter - 
+IN5401 Diode - 
+Some AWG22 Gauge wires
+
 YouTube Demo
 
-Python Script
+Copy the Script
 
 1. Download the power-monitor.py script to your home directory /home/pi
 2. Create directory /opt/power-monitor - > sudo mkdir /opt/power-monitor
