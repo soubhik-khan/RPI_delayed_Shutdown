@@ -10,8 +10,8 @@ DEBUG = 0
 PORT = 17
 
 # Shutdown delay in seconds
-# 14.5 minutes
-SHUTDOWN_DELAY = 870 
+# 10 seconds
+SHUTDOWN_DELAY = 10 
 
 # No. of seconds after ignition returns to cancel shutdown 
 CANCEL_SHUTDOWN = 5
