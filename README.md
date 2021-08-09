@@ -29,7 +29,7 @@ Testing / debugging
 
 1. In the script set the DEBUG variable to 1 - >sudo nano /opt/power-monitor/power-monitor.py
 2. Restart the service - >sudo systemctl restart power-monitor.service
-3. Debug output is directed to /var/log/daemon - view with >tail -f /var/log/daemon
+3. Debug output is directed to /var/log/daemon - view with >tail -f /var/log/daemon.log
 4. When finished set the DEBUG variable in the script back to 0 >sudo nano /opt/power-monitor/power-monitor.py
 
 Notes
