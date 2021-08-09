@@ -38,17 +38,17 @@ while True:
 	IGN_UP = GPIO.input(PORT)
  
 	# Ignition switched off? then set shutdown flag and igntion off time  
-	if not IGN_UP and not SHUTDOWN:
+	if IGN_UP and not SHUTDOWN:
 		SHUTDOWN = 1
 		IGN_OFF_TIME = NOW 
 		print("Ignition switched off, shutdown flag set!")
 
 	# Increment this counter while ignition is off 
-	if not IGN_UP and SHUTDOWN:
+	if IGN_UP and SHUTDOWN:
 		IGN_OFF_LAST_SEEN = NOW 
 
 	# if igntion is off check if shutdown delay time reached
-	if (SHUTDOWN and not IGN_UP and ((NOW - IGN_OFF_TIME) > SHUTDOWN_DELAY)):
+	if (SHUTDOWN and IGN_UP and ((NOW - IGN_OFF_TIME) > SHUTDOWN_DELAY)):
 		print("Shutdown delay of", SHUTDOWN_DELAY, "seconds reached, shutting down!")
 		try:
 			STATUS = subprocess.check_output(["shutdown", "-h", "now", "--no-wall"])
