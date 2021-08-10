@@ -59,8 +59,10 @@ to
 if not IGN_UP 
 ```
 
-#### About OpenAuto Pro
+
+## About OpenAuto Pro
 The OpenAuto Pro is the most advanced Raspberry Pi based, custom head-unit solution ready to retrofit your vehicle.
 The main functionality of the OpenAuto Pro software is to bring Users access to modern head-unit features like: Bluetooth Hands Free Profile, music streaming, integrated media player, navigation via Android Auto, screen mirroring, rear camera support, and much more interesting options and possibilities. You can get a version of OpenAuto Pro from [here](https://bluewavestudio.io/). 
+
 **You can use this coupon to get 5% discount on your purchase**
-[oap_2021_so]
+```oap_2021_so```
