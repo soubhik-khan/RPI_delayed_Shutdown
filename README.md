@@ -6,11 +6,11 @@ The timer provides power to the RPi when the IGN is on. When the IGN is switched
 ## Circuit Diagram
 ![RPI_Shutdown_Circuit](https://user-images.githubusercontent.com/16430033/128670816-533ff493-f1d9-47ca-bc32-3e5413bb67a1.png)
 
-## Component Cost:
-- FROM01 -
-- 12V Relay - 
-- DC-DC buck converter - 
-- IN5401 Diode - 
+## Component Cost:(Aliexpress)
+- [FROM01](https://www.aliexpress.com/item/33002684954.html?spm=a2g0s.9042311.0.0.27424c4dS6PgU7) ~ $6 
+- [12V Relay](https://www.aliexpress.com/item/32872184786.html?spm=a2g0s.9042311.0.0.27424c4dS6PgU7) ~ $2.5
+- [DC-DC buck converter](https://www.aliexpress.com/item/32901579606.html?spm=a2g0s.9042311.0.0.27424c4dampCZo) ~ $4
+- [IN5401 Diode](https://www.aliexpress.com/item/1005001810522699.html?spm=a2g0o.productlist.0.0.17c93299TQ8YJe&algo_pvid=01d20e26-22ef-48fd-81d9-f77d84207031&algo_exp_id=01d20e26-22ef-48fd-81d9-f77d84207031-0) ~ $2.5(20pcs)(we need 3 for this project) 
 - Some AWG22 Gauge wires
 
 ## YouTube [Demo](https://youtu.be/2I0RPV3JhXA)
