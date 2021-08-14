@@ -3,6 +3,10 @@ This is a delayed shutdown solution for a Car head unit(Android Auto based on Op
 
 The timer provides power to the RPi when the IGN is on. When the IGN is switched off the timer continues to provide power to the RPi for a configurable amount of time before switching off (e.g. 10 seconds). In tandem with this the relay opens when the IGN is switched off and sets GPIO pin 17 low. A script on the RPi monitors the status of the GPIO pin and ensures that the RPi shuts down before the timer cuts power to the RPi, screen and peripherals (e.g. 15 secs). If the ignition os back on before the RPi shutsdown, it will reset the timerrelay.
 
+## YouTube Demos
+- [Power Supply](https://youtu.be/2I0RPV3JhXA)
+- [My Complete Android Auto Setup](https://youtu.be/-Be4rQ46z9c)
+
 ## Circuit Diagram
 ![RPI_Shutdown_Circuit](https://user-images.githubusercontent.com/16430033/128670816-533ff493-f1d9-47ca-bc32-3e5413bb67a1.png)
 
@@ -14,7 +18,7 @@ The timer provides power to the RPi when the IGN is on. When the IGN is switched
 - Some AWG22 Gauge wires
 - Case for the Power supply([Amazon](https://www.amazon.com/gp/product/B07PWT2FBJ/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1)) ~ $8
 
-## YouTube [Demo](https://youtu.be/2I0RPV3JhXA)
+
 
 ## Copy the Script
 
@@ -58,7 +62,7 @@ if IGN_UP
 to 
 if not IGN_UP 
 ```
-## My Complete Android Auto Setup [Demo](https://youtu.be/-Be4rQ46z9c)
+
 
 ## About OpenAuto Pro
 The OpenAuto Pro is the most advanced Raspberry Pi based, custom head-unit solution ready to retrofit your vehicle.
