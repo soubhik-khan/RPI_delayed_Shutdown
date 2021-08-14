@@ -58,7 +58,7 @@ if IGN_UP
 to 
 if not IGN_UP 
 ```
-
+## My Complete Android Auto Setup [Demo](https://youtu.be/-Be4rQ46z9c)
 
 ## About OpenAuto Pro
 The OpenAuto Pro is the most advanced Raspberry Pi based, custom head-unit solution ready to retrofit your vehicle.
